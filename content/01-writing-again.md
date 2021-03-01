@@ -10,10 +10,10 @@ recently decided to create a video game and was advised to make a blog of my
 experiences as to keep me motivated. While I am unsure that this is the case, I
 am sure that I like distractions so I decided to take on writing a blog.
 
-Speaking of let's take a distraction from this post with a top ten list of the
-best distractions.
+Speaking of let's get distracted from this post with a top ten list of the best
+distractions.
 
-## top.ten.distractions
+## top.ten.best.distractions
 
 1. Shiny things
 2. Candy crush
@@ -31,10 +31,3 @@ Besides creating a blog is easy. I've done several times with several different
 technologies. Make a blog should be a walk in the park. I planned to be done
 within a couple hours. So first things first decide what framework to use. After
 Binging it (THAT'S RIGHT I USE BING) I found this
-
-<!-- prettier-ignore -->
-```css
-.prose h1, h2, h3, h4, h5, h6, a {
-  @apply dark:text-white;
-}
-```
