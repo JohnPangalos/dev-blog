@@ -1,0 +1,13 @@
+{% import "macros/page.html" as page_macros %}
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+
+<div class="text-4xl font-bold pb-6">{{ page.title }}</div>
+<article class="prose dark:prose-light">
+    {{ page.content | safe }}
+</article>
+
+{% endblock content %}

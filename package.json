@@ -1,0 +1,17 @@
+{
+  "name": "dev-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.4",
+    "tailwindcss": "^2.0.3",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "scripts": {
+    "tailwind": "NODE_ENV=production pnpx tailwindcss-cli build ./templates/tailwind.css -o ./static/index.css",
+    "tailwind:dev": "pnpx tailwindcss-cli build ./templates/tailwind.css -o ./static/index.css",
+    "start": "zola serve"
+  }
+}
